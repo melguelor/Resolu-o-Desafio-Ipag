@@ -1,0 +1,51 @@
+.container{
+    text-align: center;
+    margin-left:400px;
+    margin-right:400px;
+}
+
+
+.tamanho{
+    width: 80px;
+    
+}
+
+.borda{
+    padding: 10px;
+    border-radius: 120px ;
+}
+
+.borda_formada{
+  border: 2px;
+  
+}
+
+.centro{
+    text-align:  center;
+}
+
+.botao{
+    margin: 30px;
+    
+}
+
+.botao:hover{
+        background-color:lightslategrey;
+       color: white
+}
+
+.margin-right{
+    margin-right: 40px;
+}
+
+.margin-top{
+    margin-top: 80px;
+}
+
+.margin-bottom{
+
+    margin-bottom: 220px;
+}
+.esquerda{
+    text-align: left;
+}

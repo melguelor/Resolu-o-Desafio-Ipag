@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+}
+
+
+.tamanho{
+    width: 100px;
+    
+}
+
+.borda{
+    padding: 10px;
+    border-radius: 120px ;
+}
+
+.centro{
+    text-align:  center;
+}
+
+.botao{
+    margin: 30px;
+    
+}
+
+.botao:hover{
+        background-color:lightslategrey;
+       color: white
+}
+

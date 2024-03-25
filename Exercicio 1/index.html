@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1 - Calculadora</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body class="container">
+    <form>
+        <h1>Calculadora</h1>
+        <div>
+            
+            <input id="num1"  placeholder="digite numeros" class="tamanho borda centro" onChange="verificaNumero('num1')" value = 0 />
+             <select id="operacao" >
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+            <input id="num2" placeholder="digite numeros" class="tamanho borda centro" onChange="verificaNumero('num2')" value = 0 />
+        </div>
+
+       
+
+        <div>
+            
+
+           
+        </div>
+
+         <button onClick="calcular()" class="botao borda"> Calcular</button>
+    </form>
+    
+    <div id="mostrarResultado" ></div>
+    
+    
+    <script src="exercicio_1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body class="container">
+    <h1>Area de Formas Geometricas</h1>
+    
+    <p>Escolha uma das formas geometricas</p>
+        <div>
+            <input type="radio" name="formasGeometricas" value="quadrado" onChange="escolhaGeometrica('quadrado')"/>
+            <img src="img/quadrado.png" width="60" class="margin-right"/>
+
+            <input type="radio" name="formasGeometricas" value="retangulo" onChange="escolhaGeometrica('retangulo')"/>
+            <img src="img/retangulo.png" width="60"  class="margin-right"/>
+
+            <input type="radio" name="formasGeometricas" value="triangulo" onChange="escolhaGeometrica('triangulo')"/>
+            <img src="img/triangulo.png" width="60"  class="margin-right"/>
+
+            <input type="radio" name="formasGeometricas" value="circulo" onChange="escolhaGeometrica('circulo')"/>
+            <img src="img/circulo.png" width="60"  class="margin-right"/>
+        </div>
+
+
+        <div id="quadrado" hidden class="info">
+            <h1>Agora, preencha os campos para calcula a area do QUADRADO</h1>
+            <label>Digite o valor do lado</label>
+            <input id="lado_quadrado"placeholder="digite apenas numeros" class="borda centro" onChange="verificaNumero('lado_quadrado')"/>
+            <button class="botao borda centro" onclick="area_quadrado()">Achar a Area</button>
+            <div id="resultado_area_quadrado"></div>
+
+
+        </div>
+
+        <div id="retangulo" hidden class="info">
+            <h1>Agora, preencha os campos para calcula a area do RETÂNGULO</h1>
+            <label>Digite o valor do comprimento</label>
+            <input id="comprimento_retangulo" placeholder=" digite apenas numeros" class="borda centro" onchange="verificaNumero('comprimento_retangulo')" />
+            <div class="margin-top">
+            <label>Digite o valor da largura</label>
+            <input id="largura_retangulo" placeholder=" digite apenas numeros" class="borda centro" onchange="verificaNumero('largura_retangulo')" />
+            <div><button class="botao borda centro" onclick="area_retangulo()">Achar a Area</button></div>
+            <div id="resultado_area_retangulo"></div>
+            </div>
+
+        </div>
+        <div id="triangulo" hidden class="info">
+            <h1>Agora, preencha os campos para calcula a area do TRIÂNGULO</h1>
+            <label>Digite o valor da base</label>
+            <input id="base_triangulo" placeholder=" digite apenas numeros" class="borda centro" onchange="verificaNumero('base_triangulo')" />
+
+            <div class="margin-top">
+            <label>Digite o valor da altura</label>
+            <input id="altura_triangulo" placeholder=" digite apenas numeros" class="borda centro" onchange="verificaNumero('base_triangulo')" />
+            </div>
+
+            <div><button class="botao borda centro" onclick="area_triangulo()">Achar a Area</button></div>
+            <div id="resultado_area_triangulo"></div>
+
+        </div>
+        <div id="circulo" hidden class="info">
+            <h1>Agora, preencha os campos para calcula a area do CIRCULO</h1>
+            <label>Digite o valor do Raio</label>
+            <input id="raio_circulo" placeholder=" digite apenas numeros" class="borda centro" onchange="verificaNumero('raio_circulo')" />
+            <div><button class="botao borda centro" onclick="area_circulo()">Achar a Area</button></div>
+            <div id="resultado_area_circulo"></div>
+        </div>
+
+        
+
+
+
+    <form>
+        
+        
+        
+        
+        
+        
+        
+    </form>
+</body>
+<script src="exercicio_3.js"></script>
+</html>

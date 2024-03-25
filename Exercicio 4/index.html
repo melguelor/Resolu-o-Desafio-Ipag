@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4 - Adivinhação</title>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body class="container">
+    
+    <h1>Tente adivinha o numero gerado</h1>
+    <div class="esquerda">
+        Chances
+        <input id="chances" class="borda centro tamanho" type="text" class="tamanho centro"  disabled>
+    </div>
+
+    <div class="borda_formada ">
+        <h1>Numero de Tentados</h1>
+        <div id="numero_tentado"></div>
+    </div>
+    <div id="dica"></div>
+    <form class="margin-top">
+        <label>Digite o numero</label>
+        <input id="num" class="borda centro" onchange="verificaNumero('num')"/>
+               
+        <div><button class="botao borda centro" onclick="verificaTentativa()">Adivinhar</button></div>
+        
+    </form>
+</body>
+<script src="exercicio_4.js"></script>
+</html>

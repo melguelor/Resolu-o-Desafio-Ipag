@@ -1,0 +1,89 @@
+
+.container{
+    text-align: center;
+    margin-left:400px;
+    margin-right:400px;
+}
+
+
+.tamanho{
+    width: 80px;
+    
+}
+
+.borda{
+    padding: 10px;
+    border-radius: 120px ;
+}
+
+.borda_formada{
+  border: 2px;
+  
+}
+
+.centro{
+    text-align:  center;
+}
+
+.botao{
+    margin: 30px;
+    
+}
+
+.botao:hover{
+        background-color:lightslategrey;
+       color: white
+}
+
+.margin-right{
+    margin-right: 40px;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.margin-bottom{
+
+    margin-bottom: 220px;
+}
+.esquerda{
+    text-align: left;
+}
+
+.vermelho
+{
+    color:red
+}
+
+.verde
+{
+    color:rgb(99, 186, 12)
+}
+
+.preto
+{
+    color:black
+}
+
+
+
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .tabela th {
+    background-color: #f2f2f2;
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;text-align: center;
+  }
+  
+  
+  .tabela td {
+    border: 1px solid #000000;
+    padding: 8px;
+  }
