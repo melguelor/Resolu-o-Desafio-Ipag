@@ -1,4 +1,4 @@
-
+/*
 
 function verificaNumero(num)
 {
@@ -36,3 +36,4 @@ function calcular()
     
     mostrarResultado = document.getElementById('mostrarResultado').innerText = resultado
 }
+*/
